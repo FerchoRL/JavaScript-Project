@@ -27,8 +27,9 @@ console.log(producto)
 
 const words = ["fdfsdfaasas","miwndibhvfgjmxz","jwikwjw","njwdbhwyvdtwdcvtwd","wowmdwmniwndbbc","mdinhvftgdvgdd","najdsbnjas","kmklwwqawa","8y2u2b","DWNUJWBNDJB","","",""]
 
+//We use ternary operator here val1 === val2 ? if yes : if not
 let largestWord = words.reduce((acc,val) => val.length > acc.length ? val : acc);
-//console.log(largestWord);
+console.log(largestWord);
 
 //#endregion
 
